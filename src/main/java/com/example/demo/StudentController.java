@@ -19,6 +19,6 @@ public class StudentController {
         map.put("studentId", student.getId());
         map.put("studentName", student.getName());
         namedParameterJdbcTemplate.update(sql, map);
-        return "insert success";
+        return "insert success!!!";
     }
 }
